@@ -53,5 +53,33 @@ main {
     width: 100%;
     background-color: #2493BF;
 }
+.texto-bem-vindo {
+
+    margin-top: -300px;
+    flex: 1;
+    /* Ocupa o restante do espaço */
+    text-align: center;
+    /* Centraliza texto horizontalmente */
+    padding: 0 40px;
+    color: #fff;
+    /* Espaço ao redor do texto */
+    font-family: "Poppins", sans-serif
+}
+button-orçamento {
+
+    padding: 12px 28px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button-orçamento:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+}
 
 
