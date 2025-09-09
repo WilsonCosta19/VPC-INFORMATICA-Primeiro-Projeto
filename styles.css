@@ -1,0 +1,57 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    /* Fonte padrão */
+    margin: 0;
+    /* Remove margens */
+    padding: 0;
+    /* Remove preenchimento */
+    background-color: #2493BF;
+    /* Cor de fundo */
+    box-sizing: border-box;
+}
+header {
+    height: auto;
+    display: flex;
+    background: #2493BF;
+    /* Cor de fundo do cabeçalho */
+    color: #fff;
+    /* Cor do texto */
+    padding: 20px 0px;
+    /* Espaçamento interno */
+    font-family: "Poppins", sans-serif
+}
+main {
+    margin-left: auto;
+    height: 70px;
+    }
+    .logo-vpc {
+    height: 120;
+    width: 120px;
+    padding: 10px 10px;
+    /* Diminuímos o padding para 10px */
+    position: absolute;
+    margin-top: -45px;
+    /* Removemos o margin-top ou configuramos como 0 */
+}
+.link-hearder {
+    font-weight: 400px;
+    font-size: 20px;
+    line-height: normal;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 50px;
+
+
+}
+.bem-vindo {
+    display: flex;
+    align-items: center;
+    /* Alinha verticalmente ao centro */
+    height: 100vh;
+    /* Ocupa altura total da tela */
+    width: 100%;
+    background-color: #2493BF;
+}
+
+
