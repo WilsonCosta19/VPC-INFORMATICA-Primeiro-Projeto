@@ -1,116 +1,116 @@
 <!DOCTYPE html>
-<html lang="pt-br-en">
+<html lang="pt-BR">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VPC-INFORMATICA</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VPC Informática</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <section class="Menu">
-        <header>
-            <img class="logo-vpc" src="assets/vpg logo 1.png" alt="logo-Vpc-informatica">
-            <main>
-                <a href="#Sobre" class="link-hearder">Sobre </a>
-                <a href="#Serviços" class="link-hearder">Serviços</a>
-                <a href="#Contato" class="link-hearder">Contato</a>
+  <!-- Cabeçalho -->
+  <header class="menu">
+    <div class="container">
+      <a href="#">
+        <img class="logo-vpc" src="assets/vpglogo1.png" alt="Logo VPC Informática">
+      </a>
+      <nav class="nav-menu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#contato">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-            </main>
-        </header>
+  <main>
+    <!-- Hero / Bem-vindo -->
+    <section class="bem-vindo container">
+      <div class="texto-bem-vindo">
+        <h1>Bem-vindo à <br> VPC Informática</h1>
+        <p>
+          Atendimento rápido e econômico em Belo Horizonte! <br>
+          Seu dispositivo está apresentando falhas, travando ou deixou de funcionar?
+          Conte com nossa assistência técnica especializada – avaliação gratuita e soluções completas.
+        </p>
+        <button class="button-orcamento" aria-label="Solicitar orçamento">
+          Solicite um orçamento
+        </button>
+      </div>
+      <img class="img-v2" src="assets/v2.png" alt="Imagem da loja VPC Informática">
     </section>
-    <section class="bem-vindo">
 
-        <div class="texto-bem-vindo">
-            <h1>Bem Vindo á <br> VPC informática</h1>
-            <p>Atendimento Rápido e Econômico em Belo Horizonte!
-                Seu dispositivo está apresentando falhas, travando ou deixou de funcionar?
-                Conte com a VPC nossa assistência técnica especializada – avaliação gratuita e soluções completas para o seu
-                equipamento.Clique no botão abaixo e peça seu orçamento sem compromisso!</p>
-            <button class="button-orçamento">solicite um orçamento</button>
+    <!-- Sobre -->
+    <section id="sobre" class="sobre container">
+      <h2>Sobre</h2>
+      <p>
+        A VPC Informática é uma empresa especializada em serviços e gestão de tecnologia da informação,
+        fundada em 2012 em Belo Horizonte - Minas Gerais.
+        Oferecemos excelência, eficiência e qualidade, com transparência e dedicação.
+        Atuamos tanto com clientes residenciais quanto empresariais,
+        aplicando metodologias ágeis e preços justos para solucionar todos os problemas.
+      </p>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos container">
+      <h2>Nossos Serviços</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="assets/desktop.png" alt="Ícone de computador desktop">
+          <h3>Logística</h3>
+          <p>
+            Buscamos e entregamos seu equipamento, com opção de serviço no local
+            (residencial ou empresarial).
+          </p>
+        </article>
+
+        <article class="card">
+          <img src="assets/windows.png" alt="Ícone do Windows">
+          <h3>Diagnóstico</h3>
+          <p>
+            Utilizamos ferramentas e técnicas avançadas para detectar problemas com agilidade e precisão.
+          </p>
+        </article>
+
+        <article class="card">
+          <img src="assets/fone.png" alt="Ícone de fone de ouvido">
+          <h3>Suporte Remoto</h3>
+          <p>
+            Atendimento online para orçamentos, dúvidas e resolução de problemas.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer id="contato" class="footer-container">
+    <div class="container footer-content">
+      <div class="footer-info">
+        <h3>Contato</h3>
+        <img src="assets/loja.webp" alt="imagemdaloja">
+        <ul>
+          <li><a href="tel:+552199999999">+55 21 9999-9999</a></li>
+          <li><a href="mailto:contato@vpc.com">contato@vpc.com</a></li>
+          <li>Rua Ali Perto, 42 - Botafogo</li>
+          <li>Rio de Janeiro - RJ</li>
+        </ul>
+        <div class="footer-redes">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
+          </a>
+          <a href="https://youtube.com" target="_blank" rel="noopener noreferrer">
+            <img src="./img/redes/youtube.svg" width="32" height="32" alt="YouTube">
+          </a>
         </div>
-                <img class="img-v2"  src="assets/v2.png" alt="imagem-loja">
-    </section>
-
-    <section id="Sobre" class="sobre">
-        <div class="container">
-            <div class="titulo-sobre">
-                <h1>Sobre </h1>
-                <p>A VPC informática é uma empresa totalmente focada em serviços e gestão de tecnologia da informação,
-                    fundada
-                    em 2012 em Belo horizonte-Minas Gerais.Oferecemos nossos serviços buscando excelência, eficiência e
-                    qualidade. Trabalhamos com transparência, honestidade e dedicação, para garantir que os equipamentos
-                    funcionem de forma integra, estável e segura.Contamos com profissionais preparados para atender
-                    pessoa
-                    física e jurídica, buscando revolucionar o mercado com metodologias ágeis e preços justos, afim de
-                    solucionar todos os problemas encontrados. ⠀</p>
-            </div>
-        </div>
-    </section>
-    <section id="Serviços" class="serviços">
-        <h1 class="titulo">Nossos Serviços</h1>
-        <div class="container">
-
-            <div class="cards">
-
-                <div class="card">
-                    <img src="assets/desktop.png" alt="imagem-desktop">
-                    <h3>Logistica</h3>
-                    <p>Buscamos e entregamos seu equipamento,com opção de serviço no local (residencial/empresarial).
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="assets/windows.png" alt="imagem-windows">
-                    <h3>Diagnostico</h3>
-                    <p>Utilizamos as mais recentes ferramentas e técnicas, para detecção de problemas com agilidade e
-                        precisão
-                    </p>
-                </div>
-                <div class="card">
-                    <img src="assets/fone.png" alt="imagem-fone">
-                    <h3>Suporte Remoto</h3>
-                    <p>Atendimento online para orçamentos, duvidas e resolução de problemas</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-   <section class="footer-container    ">
-
-        <footer>
-            <div>
-                <img src="assets/vpg logo 1.png" width="136" height="32" alt="imagem-logo">
-                <div class="footer-contato">
-                    <h3 id="Contato">Contato</h3>
-                    <ul>
-                        <li><a href="tel:+552199999999">+55 21 9999-9999</a></li>
-                        <li><a href="mailto:contato@vpc.com">contato@vpc.com</a></li>
-                        <li>Rua Ali Perto, 42 - Botafogo</li>
-                        <li>Rio de Janeiro - RJ</li>
-                    </ul>
-                    <div class="footer-redes">
-                        <a href="./">
-                            <img src="./img/redes/instagram.svg" width="32" height="32" alt="Instagram">
-                        </a>
-                        <a href="./">
-                            <img src="./img/redes/facebook.svg" width="32" height="32" alt="Facebook">
-                        </a>
-                        <a href="./">
-                            <img src="./img/redes/youtube.svg" width="32" height="32" alt="Youtube">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <p>&copy; 2023 Assistência Técnica de Computadores</p>
-            </div>
-        </footer>
-
-    </section>
-
-
-
+      </div>
+      <p>&copy; 2023 Assistência Técnica de Computadores</p>
+    </div>
+  </footer>
 </body>
 
 </html>
